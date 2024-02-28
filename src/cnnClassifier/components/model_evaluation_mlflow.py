@@ -56,12 +56,15 @@ class Evaluation:
     def log_into_mlflow(self):
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+        print("hola")
         
         with mlflow.start_run():
             mlflow.log_params(self.config.all_params)
             mlflow.log_metrics(
                 {"loss": self.score[0], "accuracy": self.score[1]}
             )
+            print("rmse", self.score[0])
+            print("r2", self.score[1])
             # Model registry does not work with file store
             if tracking_url_type_store != "file":
 
@@ -70,5 +73,6 @@ class Evaluation:
                 # please refer to the doc for more information:
                 # https://mlflow.org/docs/latest/model-registry.html#api-workflow
                 mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+                print("hola")
             else:
                 mlflow.keras.log_model(self.model, "model")
