@@ -22,3 +22,10 @@ By harnessing the capabilities of advanced technologies like CNNs and cloud comp
 3. Run conda activate cnncls in repo folder
 4. Run pip install -r requirements.txt in the repository folder
 5.  Finally do python app.py and open localhost. 
+
+# Visualizations
+
+![Model overview](https://github.com/jzuluaga02/kidney-disease-predictor/assets/114960212/6fbd5b15-0c44-42ed-a14d-c85dd0070d46)
+
+![image](https://github.com/jzuluaga02/kidney-disease-predictor/assets/114960212/e29c4a41-83df-4d2f-a9f1-01514e5b2996)
+
