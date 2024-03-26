@@ -15,6 +15,13 @@ Working on containerizing the final application using Docker, aimed at providing
 Ongoing efforts in model tuning and personalization of the application to cater to the unique needs of individual users, further enhancing its effectiveness and usability in hospital and healthcare settings.
 By harnessing the capabilities of advanced technologies like CNNs and cloud computing, our project aims to revolutionize the way X-ray images are analyzed in hospital and healthcare facilities, ultimately improving patient care and outcomes.
 
+# Visualizations
+
+![Model overview](https://github.com/jzuluaga02/kidney-disease-predictor/assets/114960212/6fbd5b15-0c44-42ed-a14d-c85dd0070d46)
+
+![image](https://github.com/jzuluaga02/kidney-disease-predictor/assets/114960212/e29c4a41-83df-4d2f-a9f1-01514e5b2996)
+
+
 # If you want to run the code and be able to access the website follow this steps:
 
 1. Clone the repository
@@ -23,9 +30,4 @@ By harnessing the capabilities of advanced technologies like CNNs and cloud comp
 4. Run pip install -r requirements.txt in the repository folder
 5.  Finally do python app.py and open localhost. 
 
-# Visualizations
-
-![Model overview](https://github.com/jzuluaga02/kidney-disease-predictor/assets/114960212/6fbd5b15-0c44-42ed-a14d-c85dd0070d46)
-
-![image](https://github.com/jzuluaga02/kidney-disease-predictor/assets/114960212/e29c4a41-83df-4d2f-a9f1-01514e5b2996)
 
